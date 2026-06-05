@@ -1,12 +1,12 @@
 # The Generative Constraint Principle
 
-## A Structural Theory of Generators, Constraints, Observations, and Explanation
+## A Structural Theory of Observations, Generators, Constraints, and Explanation
 
 ---
 
 # Motivation
 
-Systems continuously produce observable outputs.
+Systems continuously produce observations.
 
 Examples include:
 
@@ -28,10 +28,10 @@ What Happened?
 A deeper question is:
 
 ```text
-What Could Have Produced This?
+What Could Have Generated This?
 ```
 
-Every observation possesses a more primitive property than truth, usefulness, interpretation, or meaning:
+Every observation possesses a more primitive property than truth, usefulness, meaning, or interpretation:
 
 ```text
 It Exists
@@ -39,9 +39,9 @@ It Exists
 
 Its existence implies that some process was capable of producing it.
 
-However, generation is not arbitrary.
+However, generation is never arbitrary.
 
-Every generator possesses constraints.
+Every generator is constrained.
 
 Therefore:
 
@@ -67,8 +67,10 @@ Generators
 Provide Explanation
 
 Constraints
-Provide Explanatory Power
+Provide Information
 ```
+
+Understanding improves not merely by accumulating observations, but by discovering constraints that eliminate possibilities.
 
 ---
 
@@ -80,7 +82,7 @@ Provide Explanatory Power
 
 No observation appears independently.
 
-Every observation results from some process, interaction, structure, or mechanism.
+Every observation results from some process, interaction, mechanism, structure, or state transition.
 
 Examples:
 
@@ -88,14 +90,14 @@ Examples:
 Measurement
 ← Physical Interaction
 
-Log Line
-← Software Execution
+Log Entry
+← Program Execution
 
 Statement
 ← Cognitive Process
 
 Price
-← Economic Dynamics
+← Market Dynamics
 ```
 
 Therefore:
@@ -112,7 +114,7 @@ Generator
 
 ## F2. Every Generator Has Constraints
 
-A generator cannot produce arbitrary outputs.
+No generator can produce arbitrary outputs.
 
 Examples:
 
@@ -121,7 +123,7 @@ ASCII Generator
 
 Cannot Produce
 
-Non-ASCII Characters
+Unicode Characters
 ```
 
 ```text
@@ -162,31 +164,77 @@ Many Outputs
 
 ---
 
-## F3. Constraints Are Often More Informative Than Outputs
+## F3. Constraints Define Possibility Spaces
 
-A generator may produce many outputs.
+The behavior of a generator is determined not only by what it can produce but also by what it cannot produce.
 
-However, its constraints determine what cannot occur.
+Examples:
+
+```text
+Immutable Variable
+
+Cannot Change Value
+```
+
+```text
+Vacuum
+
+Eliminates Air Resistance Effects
+```
+
+```text
+Type System
+
+Eliminates Invalid States
+```
+
+Constraints remove possibilities.
 
 Therefore:
 
 ```text
-Understanding
+Constraints
 
-Requires Knowing
+Reduce
 
-Both
-
-Capabilities
-
-and
-
-Limitations
+Possibility Space
 ```
 
 ---
 
-## F4. Observation Existence Precedes Interpretation
+## F4. Constraint Is Information
+
+Information is fundamentally the elimination of possibilities.
+
+Learning that something cannot occur is often as informative as learning that something can occur.
+
+Examples:
+
+```text
+Object Falls Equally In Vacuum
+```
+
+eliminates many candidate explanations.
+
+```text
+Variable Is Constant
+```
+
+eliminates many future states.
+
+Therefore:
+
+```text
+Constraint
+
+Produces
+
+Information
+```
+
+---
+
+## F5. Observation Existence Precedes Interpretation
 
 An observation may be:
 
@@ -194,7 +242,6 @@ An observation may be:
 * false,
 * misleading,
 * manipulated,
-* incomplete,
 * misunderstood.
 
 Before interpretation:
@@ -217,7 +264,7 @@ Generator
 
 ---
 
-## F5. Observations Are Evidence
+## F6. Observations Are Evidence
 
 Observations modify beliefs.
 
@@ -226,7 +273,7 @@ They may:
 * reveal phenomena,
 * challenge theories,
 * expose mechanisms,
-* motivate inquiry.
+* eliminate explanations.
 
 However:
 
@@ -242,7 +289,7 @@ Provides Explanation
 
 ---
 
-## F6. Explanation Is An Inverse Problem
+## F7. Explanation Is An Inverse Problem
 
 Generation proceeds naturally:
 
@@ -274,11 +321,11 @@ Is Generator Inference
 
 ---
 
-## F7. Generators Usually Persist
+## F8. Generators Usually Persist
 
 Many observations are transient.
 
-Generators often produce many outputs.
+Generators often produce many observations.
 
 Examples:
 
@@ -308,7 +355,7 @@ Across Observations
 
 ---
 
-## F8. Observations Rarely Identify Generators Uniquely
+## F9. Observations Rarely Identify Generators Uniquely
 
 Different generators may produce similar outputs.
 
@@ -326,9 +373,9 @@ Generator
 
 ---
 
-## F9. Observations Can Eliminate Generators
+## F10. Observations Frequently Eliminate Generators
 
-Although observations may not identify generators uniquely, they often falsify candidate generators.
+Although observations rarely identify generators uniquely, they often eliminate candidate generators.
 
 Example:
 
@@ -353,18 +400,18 @@ Thus:
 ```text
 Observation
 
-May Exclude
+Reduces
 
-Generators
+Generator Possibilities
 ```
 
 even when it cannot identify one uniquely.
 
 ---
 
-## F10. Generator Discovery Is Constraint Discovery
+## F11. Generator Discovery Is Constraint Discovery
 
-As understanding improves, observed constraints become clearer.
+Understanding increases when fewer generators remain compatible with observations.
 
 Therefore:
 
@@ -376,13 +423,15 @@ Generator Discovery
 Constraint Discovery
 ```
 
-Understanding increases when possibility spaces become narrower.
+The goal is not merely to find what is possible.
+
+The goal is to discover what is impossible.
 
 ---
 
-## F11. Prediction Requires Generator Models
+## F12. Prediction Requires Generator Models
 
-Future observations emerge from generating processes.
+Future observations emerge from generators.
 
 Prediction improves through knowledge of:
 
@@ -403,9 +452,9 @@ Generator Models
 
 ---
 
-## F12. Many Observations Are Generated Observations
+## F13. Observations Are Often Generated Observations
 
-An observation at one level may be an output at another.
+Many observations are outputs of prior generators.
 
 Example:
 
@@ -455,7 +504,7 @@ Examples:
 
 ## D2. Generator
 
-A mechanism, structure, process, interaction, or constraint capable of producing observations.
+A process, mechanism, interaction, structure, or system capable of producing observations.
 
 ---
 
@@ -467,7 +516,7 @@ The set of observations a generator is capable of producing.
 
 ## D4. Constraint
 
-A limitation restricting the possibility space of a generator.
+A limitation that removes possibilities from a generator's possibility space.
 
 ---
 
@@ -486,9 +535,27 @@ Generator models are themselves observations.
 
 ---
 
-## D6. Explanatory Significance
+## D6. Information
 
-The degree to which knowledge of a generator improves:
+Reduction of uncertainty through elimination of possibilities.
+
+---
+
+## D7. Generator Falsification
+
+Elimination of a candidate generator because an observation lies outside its possibility space.
+
+---
+
+## D8. Explanatory Depth
+
+The degree to which a generator accounts for classes of observations rather than isolated instances.
+
+---
+
+## D9. Explanatory Utility
+
+The degree to which a generator model improves:
 
 * prediction,
 * diagnosis,
@@ -499,49 +566,25 @@ The degree to which knowledge of a generator improves:
 
 ---
 
-## D7. Generator Falsification
-
-The elimination of a candidate generator because an observation lies outside its possibility space.
-
----
-
-## D8. Explanatory Depth
-
-The degree to which a generator accounts for classes of observations rather than isolated instances.
-
----
-
 # Core Propositions
 
 ---
 
-## P1. Observations Derive Explanatory Significance From Generators
-
-```text
-Observation
-
-Provides Evidence
-
-Generator
-
-Provides Explanation
-```
-
----
-
-## P2. Observation Existence Is Evidence Of Generation
+## P1. Observation Existence Implies Generation
 
 ```text
 Observation Exists
 
 Therefore
 
-Something Generated It
+Some Generator
+
+Produced It
 ```
 
 ---
 
-## P3. Generators Define Possibility Spaces
+## P2. Generators Define Possibility Spaces
 
 ```text
 Generator
@@ -551,45 +594,61 @@ Determines
 What Can Occur
 ```
 
----
-
-## P4. Constraints Define Explanatory Power
-
-The most informative generators are often those that strongly restrict possibilities.
-
-Therefore:
+and
 
 ```text
-Explanatory Power
+What Cannot Occur
+```
 
-Increases With
+---
 
+## P3. Constraints Reduce Possibility Space
+
+```text
 Constraint
+
+Removes
+
+Possible Outputs
+```
+
+---
+
+## P4. Information Is Possibility Elimination
+
+```text
+Information
+
+=
+
+Reduction Of
+
+Possible Alternatives
 ```
 
 ---
 
 ## P5. Explanation Is Generator Inference
 
-Explanation seeks the generators capable of producing observations.
-
-Therefore:
-
 ```text
 Explanation
 
 =
 
-Inverse Generation
+Inference Of
+
+Generators
+
+From
+
+Observations
 ```
 
 ---
 
-## P6. Observation Enables Generator Elimination
+## P6. Observations Primarily Improve Understanding Through Elimination
 
-Many observations do not identify generators.
-
-They often eliminate them.
+Observations often provide more value by excluding generators than by identifying them.
 
 Therefore:
 
@@ -598,7 +657,7 @@ Observation
 
 Supports
 
-Generator Falsification
+Generator Elimination
 ```
 
 ---
@@ -606,14 +665,12 @@ Generator Falsification
 ## P7. Stable Patterns Suggest Stable Generators
 
 ```text
-Pattern
+Persistent Pattern
 
 Suggests
 
-Generator
+Persistent Generator
 ```
-
-Repeated outputs suggest persistent mechanisms.
 
 ---
 
@@ -629,9 +686,9 @@ Generator Models
 
 ---
 
-## P9. Robust Knowledge Concerns Generators
+## P9. Knowledge Progresses Through Constraint Discovery
 
-Knowledge becomes more robust as it shifts from:
+Knowledge becomes more robust as it moves from:
 
 ```text
 Observation
@@ -645,7 +702,23 @@ Observation
 
 ---
 
-## P10. Explanation Seeks The Smallest Sufficient Generator
+## P10. Better Explanations Eliminate More Alternatives
+
+An explanation becomes more useful when it excludes larger classes of competing generators.
+
+Therefore:
+
+```text
+Explanatory Utility
+
+Increases With
+
+Generator Elimination
+```
+
+---
+
+## P11. Explanation Seeks The Smallest Sufficient Generator
 
 The deepest useful explanation is not necessarily the lowest-level explanation.
 
@@ -656,7 +729,7 @@ Best Explanation
 
 =
 
-Lowest-Level Generator
+Smallest Sufficient Generator
 
 That Improves
 
@@ -671,9 +744,9 @@ Compression
 
 ---
 
-## P11. Explanatory Search Has Diminishing Returns
+## P12. Explanatory Search Has Diminishing Returns
 
-A generator can often be decomposed into smaller generators.
+Generators can often be decomposed indefinitely.
 
 Example:
 
@@ -689,21 +762,19 @@ Pants
 ← Atomic Structure
 ```
 
-The chain may continue indefinitely.
-
 However:
 
 ```text
 Additional Decomposition
 
-Does Not Always
+Does Not Necessarily
 
 Increase Understanding
 ```
 
 ---
 
-## P12. Explanation Stops When Additional Decomposition Produces Insufficient Gain
+## P13. Explanation Stops When Additional Constraint Discovery Produces Insufficient Gain
 
 Explanatory stopping is pragmatic rather than absolute.
 
@@ -714,11 +785,11 @@ Explanation Stops
 
 When
 
-Additional Generator Search
+Further Constraint Discovery
 
 Produces
 
-Insufficient Explanatory Benefit
+Insufficient Benefit
 ```
 
 ---
@@ -727,13 +798,7 @@ Insufficient Explanatory Benefit
 
 Any observation may itself be analyzed as generator output.
 
-Therefore:
-
-```text
-What Generated This?
-```
-
-applies to:
+This includes:
 
 * observations,
 * concepts,
@@ -741,9 +806,22 @@ applies to:
 * explanations,
 * institutions,
 * theories,
-* scientific models.
+* generator models.
 
-The principle recursively applies at every level.
+Therefore:
+
+```text
+What Generated This?
+```
+
+and
+
+```text
+What Constraints
+Made This Possible?
+```
+
+apply recursively at every level.
 
 ---
 
@@ -772,17 +850,20 @@ Research
 ≈ Constraint Discovery
 
 Explanation
-≈ Inverse Generation
+≈ Generator Inference
 
 Perception
-≈ Generator Inference
+≈ Generator Identification
+
+Information
+≈ Possibility Elimination
 ```
 
 ---
 
 # General Principle
 
-When confronted with an observation, the central question is not:
+When confronted with an observation, the central question is not merely:
 
 ```text
 What Happened?
@@ -808,9 +889,11 @@ Observations reveal existence.
 
 Generators reveal mechanisms.
 
-Constraints reveal explanatory structure.
+Constraints reveal structure.
 
-The deepest understanding arises not from cataloging observations, but from identifying the constrained generators capable of producing them.
+Information arises from eliminated possibilities.
+
+Understanding increases when observations reduce the set of generators capable of producing them.
 
 ---
 
@@ -820,15 +903,17 @@ Observations are generated.
 
 Generators define possibility spaces.
 
-Constraints restrict those spaces.
+Constraints restrict possibility spaces.
 
-Observation existence implies generation.
+Constraint discovery eliminates possibilities.
+
+Information is possibility elimination.
 
 Observations provide evidence.
 
 Generators provide explanation.
 
-Constraints provide explanatory power.
+Constraints provide information.
 
 Observations rarely identify generators uniquely.
 
@@ -840,14 +925,20 @@ Prediction requires generator models.
 
 Generator discovery is constraint discovery.
 
-Explanatory depth arises from identifying stable generators rather than isolated outputs.
+Knowledge progresses through the reduction of compatible generators.
 
-The central question becomes:
+The central questions become:
 
 ```text
 What Could Have Generated This?
-
-And
-
-What Constraints Made It Possible?
 ```
+
+and
+
+```text
+What Constraints
+
+Made It Possible?
+```
+
+The deepest understanding arises not from cataloging observations, but from discovering the constraints that eliminate alternative generators.
