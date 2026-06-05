@@ -1,6 +1,6 @@
-# The Generative Primacy Principle
+# The Generative Constraint Principle
 
-## A Structural Theory of Generators, Observations, and Explanatory Significance
+## A Structural Theory of Generators, Constraints, Observations, and Explanation
 
 ---
 
@@ -13,27 +13,35 @@ Examples include:
 * sensory experiences,
 * scientific measurements,
 * software logs,
-* human statements,
 * market prices,
-* social behaviors,
-* institutional outcomes,
-* scientific theories.
+* statements,
+* behaviors,
+* institutions,
+* theories.
 
-These outputs are often treated as significant in themselves.
-
-A more primitive question exists:
+The traditional question is:
 
 ```text
-Why Does This Exist?
+What Happened?
 ```
 
-Every observation possesses a property more fundamental than truth, usefulness, relevance, interpretation, or meaning:
+A deeper question is:
+
+```text
+What Could Have Produced This?
+```
+
+Every observation possesses a more primitive property than truth, usefulness, interpretation, or meaning:
 
 ```text
 It Exists
 ```
 
-Its existence implies that something was capable of producing it.
+Its existence implies that some process was capable of producing it.
+
+However, generation is not arbitrary.
+
+Every generator possesses constraints.
 
 Therefore:
 
@@ -43,21 +51,24 @@ Observation Existence
 Implies
 
 Generator Existence
+
+and
+
+Generator Constraints
 ```
 
-The Generative Primacy Principle proposes:
+The central claim of this principle is:
 
 ```text
 Observations
-Are Epistemically Primary
+Provide Evidence
 
 Generators
-Are Explanatorily Primary
+Provide Explanation
+
+Constraints
+Provide Explanatory Power
 ```
-
-Observations provide evidence.
-
-Generators provide explanation.
 
 ---
 
@@ -65,25 +76,25 @@ Generators provide explanation.
 
 ---
 
-## F1. Observations Are Produced
+## F1. Every Observation Is Generated
 
 No observation appears independently.
 
-Every observation arises through some process.
+Every observation results from some process, interaction, structure, or mechanism.
 
 Examples:
 
 ```text
-Log Line
-← Software Execution
-
 Measurement
 ← Physical Interaction
+
+Log Line
+← Software Execution
 
 Statement
 ← Cognitive Process
 
-Market Price
+Price
 ← Economic Dynamics
 ```
 
@@ -99,53 +110,123 @@ Generator
 
 ---
 
-## F2. Observation Existence Precedes Interpretation
+## F2. Every Generator Has Constraints
+
+A generator cannot produce arbitrary outputs.
+
+Examples:
+
+```text
+ASCII Generator
+
+Cannot Produce
+
+Non-ASCII Characters
+```
+
+```text
+Refrigerator
+
+Cannot Produce
+
+Operating Systems
+```
+
+```text
+Helium Atom
+
+Cannot Produce
+
+Arbitrary Chemical Bonds
+```
+
+Therefore:
+
+```text
+Generator
+
+Defines
+
+A Possibility Space
+```
+
+and
+
+```text
+Generator
+
+Excludes
+
+Many Outputs
+```
+
+---
+
+## F3. Constraints Are Often More Informative Than Outputs
+
+A generator may produce many outputs.
+
+However, its constraints determine what cannot occur.
+
+Therefore:
+
+```text
+Understanding
+
+Requires Knowing
+
+Both
+
+Capabilities
+
+and
+
+Limitations
+```
+
+---
+
+## F4. Observation Existence Precedes Interpretation
 
 An observation may be:
 
 * true,
 * false,
-* noisy,
+* misleading,
 * manipulated,
-* useful,
-* irrelevant,
-* surprising,
+* incomplete,
 * misunderstood.
 
-These properties concern interpretation.
-
-Prior to interpretation:
+Before interpretation:
 
 ```text
 The Observation Exists
 ```
 
-Its existence indicates that some process generated it.
+Its existence still requires generation.
 
 Therefore:
 
 ```text
-Observation Existence
+False Observation
 
-Implies
+Still Implies
 
-Generation
+Generator
 ```
-
-even when the observation is false.
 
 ---
 
-## F3. Observations Are Evidence
+## F5. Observations Are Evidence
 
-Observations may significantly change beliefs.
+Observations modify beliefs.
 
-A single observation may:
+They may:
 
-* falsify a theory,
-* reveal a new phenomenon,
-* expose a hidden process,
-* motivate new explanations.
+* reveal phenomena,
+* challenge theories,
+* expose mechanisms,
+* motivate inquiry.
 
 However:
 
@@ -159,45 +240,45 @@ Generator
 Provides Explanation
 ```
 
-Therefore:
-
-```text
-Epistemic Significance
-≠
-Explanatory Significance
-```
-
-Observations may be highly informative.
-
-Their explanatory significance derives from what generated them.
-
 ---
 
-## F4. Observations Are Often Transient
+## F6. Explanation Is An Inverse Problem
 
-Many observations are temporary.
+Generation proceeds naturally:
 
-Examples:
+```text
+Generator
 
-* sensor readings,
-* software logs,
-* conversations,
-* market fluctuations,
-* behavioral events.
+→ Observation
+```
 
-Therefore:
+Explanation proceeds in reverse:
 
 ```text
 Observation
 
-Need Not Persist
+→ Generator
+```
+
+The reverse direction is generally underdetermined.
+
+Multiple generators may explain the same observation.
+
+Therefore:
+
+```text
+Explanation
+
+Is Generator Inference
 ```
 
 ---
 
-## F5. Generators Often Persist Across Observations
+## F7. Generators Usually Persist
 
-A generator may produce many outputs.
+Many observations are transient.
+
+Generators often produce many outputs.
 
 Examples:
 
@@ -205,59 +286,110 @@ Examples:
 Compiler
 → Many Executables
 
-Human Cognition
-→ Many Thoughts
-
 Market Structure
 → Many Prices
 
-Scientific Community
-→ Many Publications
+Language Model
+→ Many Texts
+
+Human Cognition
+→ Many Thoughts
 ```
 
 Therefore:
 
 ```text
+Generators
+
+Often Persist
+
+Across Observations
+```
+
+---
+
+## F8. Observations Rarely Identify Generators Uniquely
+
+Different generators may produce similar outputs.
+
+Therefore:
+
+```text
+Observation
+
+Does Not Uniquely
+
+Determine
+
 Generator
-
-Typically Persists
-
-Across
-
-Many Observations
 ```
 
 ---
 
-## F6. Explanation Requires Generators
+## F9. Observations Can Eliminate Generators
 
-Observations do not explain themselves.
+Although observations may not identify generators uniquely, they often falsify candidate generators.
 
-Explanation requires identifying:
+Example:
 
 ```text
-What Produced This?
+Observation
+
+Contains
+
+Unicode Character
 ```
 
 Therefore:
 
 ```text
-Understanding
+ASCII Generator
 
-Requires
-
-Generator Identification
+Cannot Be Source
 ```
+
+Thus:
+
+```text
+Observation
+
+May Exclude
+
+Generators
+```
+
+even when it cannot identify one uniquely.
 
 ---
 
-## F7. Prediction Requires Generator Models
+## F10. Generator Discovery Is Constraint Discovery
+
+As understanding improves, observed constraints become clearer.
+
+Therefore:
+
+```text
+Generator Discovery
+
+=
+
+Constraint Discovery
+```
+
+Understanding increases when possibility spaces become narrower.
+
+---
+
+## F11. Prediction Requires Generator Models
 
 Future observations emerge from generating processes.
 
-Knowledge of prior outputs is often insufficient.
+Prediction improves through knowledge of:
 
-Prediction improves through generator models.
+* mechanisms,
+* constraints,
+* state transitions,
+* interactions.
 
 Therefore:
 
@@ -271,27 +403,9 @@ Generator Models
 
 ---
 
-## F8. Generators Are Usually Inferred
+## F12. Many Observations Are Generated Observations
 
-Direct access to generators is uncommon.
-
-Typically:
-
-```text
-Observation
-
-Precedes
-
-Generator Inference
-```
-
-Knowledge progresses from outputs toward mechanisms.
-
----
-
-## F9. Many Observations Are Themselves Generated Observations
-
-What appears to be an observation at one level may be an output of another generator.
+An observation at one level may be an output at another.
 
 Example:
 
@@ -306,14 +420,6 @@ Physical Structure
 
 → Linguistic Observation
 ```
-
-Thus:
-
-```text
-"There Is A Rock"
-```
-
-is itself an observation generated by cognitive processes.
 
 Therefore:
 
@@ -333,15 +439,14 @@ Generator Output
 
 ## D1. Observation
 
-An observation is any realized output available to a system.
+Any realized output available to a system.
 
 Examples:
 
 * measurements,
 * perceptions,
-* logs,
-* actions,
 * messages,
+* actions,
 * concepts,
 * beliefs,
 * theories.
@@ -350,114 +455,59 @@ Examples:
 
 ## D2. Generator
 
-A generator is any mechanism, structure, process, interaction, or constraint capable of producing observations.
-
-Examples:
-
-* physical laws,
-* software architectures,
-* biological systems,
-* cognitive processes,
-* institutions,
-* markets,
-* social dynamics.
+A mechanism, structure, process, interaction, or constraint capable of producing observations.
 
 ---
 
-## D3. Generative Structure
+## D3. Possibility Space
 
-A generative structure is an organized collection of generators capable of producing classes of observations.
-
-Examples:
-
-```text
-Language Model
-→ Text
-
-Operating System
-→ Processes
-
-Scientific Community
-→ Publications
-
-Economy
-→ Prices
-```
+The set of observations a generator is capable of producing.
 
 ---
 
-## D4. Generator Model
+## D4. Constraint
 
-A generator model is a representation intended to describe generator behavior.
+A limitation restricting the possibility space of a generator.
+
+---
+
+## D5. Generator Model
+
+A representation intended to describe generator behavior.
 
 Examples:
 
 * scientific theories,
 * simulations,
-* mathematical models,
-* causal diagrams.
+* causal models,
+* mathematical descriptions.
 
 Generator models are themselves observations.
 
 ---
 
-## D5. Reproducibility
-
-Reproducibility is the capacity of a generator to produce similar outputs under similar conditions.
-
-Therefore:
-
-```text
-Reproducibility
-
-Indicates
-
-Generator Stability
-```
-
----
-
 ## D6. Explanatory Significance
 
-Explanatory significance is the degree to which knowledge of a generator improves:
+The degree to which knowledge of a generator improves:
 
-* understanding,
 * prediction,
 * diagnosis,
 * intervention,
-* control.
+* control,
+* compression,
+* understanding.
 
 ---
 
-## D7. Observability
+## D7. Generator Falsification
 
-Observability is the degree to which generator behavior can be inferred from available observations.
+The elimination of a candidate generator because an observation lies outside its possibility space.
 
 ---
 
-## D8. Generator Relativity
+## D8. Explanatory Depth
 
-Generators exist at multiple scales.
-
-The generator identified for an observation depends upon the analytical boundary selected.
-
-Therefore:
-
-```text
-Generator Identification
-
-Depends On
-
-Scale
-```
-
-and
-
-```text
-System Boundaries
-
-Are Model Relative
-```
+The degree to which a generator accounts for classes of observations rather than isolated instances.
 
 ---
 
@@ -466,10 +516,6 @@ Are Model Relative
 ---
 
 ## P1. Observations Derive Explanatory Significance From Generators
-
-Observations become explanatorily meaningful because they provide evidence regarding generators.
-
-Therefore:
 
 ```text
 Observation
@@ -485,53 +531,79 @@ Provides Explanation
 
 ## P2. Observation Existence Is Evidence Of Generation
 
-Regardless of accuracy:
-
 ```text
-Observation Existence
+Observation Exists
 
-Requires Explanation
-```
+Therefore
 
-Therefore:
-
-```text
-Observation Existence
-
-Is Evidence
-
-Of Generation
+Something Generated It
 ```
 
 ---
 
-## P3. Generators Explain Classes Of Observations
-
-A single observation explains little.
-
-A generator may explain many observations.
-
-Therefore:
+## P3. Generators Define Possibility Spaces
 
 ```text
 Generator
 
-Contains More
+Determines
 
-Explanatory Information
-
-Than
-
-Any Individual Output
+What Can Occur
 ```
 
 ---
 
-## P4. Patterns Suggest Stable Generators
+## P4. Constraints Define Explanatory Power
 
-Repeated observations suggest stable underlying structure.
+The most informative generators are often those that strongly restrict possibilities.
 
 Therefore:
+
+```text
+Explanatory Power
+
+Increases With
+
+Constraint
+```
+
+---
+
+## P5. Explanation Is Generator Inference
+
+Explanation seeks the generators capable of producing observations.
+
+Therefore:
+
+```text
+Explanation
+
+=
+
+Inverse Generation
+```
+
+---
+
+## P6. Observation Enables Generator Elimination
+
+Many observations do not identify generators.
+
+They often eliminate them.
+
+Therefore:
+
+```text
+Observation
+
+Supports
+
+Generator Falsification
+```
+
+---
+
+## P7. Stable Patterns Suggest Stable Generators
 
 ```text
 Pattern
@@ -541,13 +613,11 @@ Suggests
 Generator
 ```
 
+Repeated outputs suggest persistent mechanisms.
+
 ---
 
-## P5. Prediction Depends On Generator Accuracy
-
-Predictive capability depends upon modeling generator behavior.
-
-Therefore:
+## P8. Prediction Depends On Generator Accuracy
 
 ```text
 Predictive Power
@@ -559,260 +629,125 @@ Generator Models
 
 ---
 
-## P6. Explanation Progresses Toward Generators
+## P9. Robust Knowledge Concerns Generators
 
-Understanding often develops through:
+Knowledge becomes more robust as it shifts from:
 
 ```text
 Observation
 
 → Pattern
 
-→ Mechanism
+→ Constraint
 
 → Generator
 ```
 
-Deeper explanation corresponds to movement toward generative structure.
-
 ---
 
-## P7. Observations Do Not Uniquely Determine Generators
+## P10. Explanation Seeks The Smallest Sufficient Generator
 
-Multiple generators may produce similar observations.
+The deepest useful explanation is not necessarily the lowest-level explanation.
 
-Therefore:
+Instead:
 
 ```text
-Observation
+Best Explanation
 
-Does Not Uniquely
+=
 
-Identify
+Lowest-Level Generator
 
-Generator
+That Improves
+
+Prediction
+
+Intervention
+
+Control
+
+Compression
 ```
 
 ---
 
-## P8. Observability Enables Generator Discovery
+## P11. Explanatory Search Has Diminishing Returns
 
-Generators require observable consequences.
+A generator can often be decomposed into smaller generators.
 
-Therefore:
-
-```text
-Observation
-
-Enables
-
-Generator Discovery
-```
-
----
-
-## P9. Logs Are Observations, Not Explanations
-
-Logs provide outputs.
-
-They support inference.
-
-They do not themselves explain behavior.
-
-Therefore:
+Example:
 
 ```text
-Logs
+Pants
 
-Support
+← Manufacturing
 
-Generator Inference
+← Materials
 
-They Do Not
+← Chemistry
 
-Constitute
-
-Understanding
+← Atomic Structure
 ```
 
----
-
-## P10. Absence Of Observation Does Not Imply Absence Of Generator
-
-A generator may exist without observable output.
-
-Therefore:
-
-```text
-No Observation
-
-≠
-
-No Generator
-```
-
----
-
-## P11. Misleading Observations Still Require Generators
-
-Observations may be:
-
-* incomplete,
-* deceptive,
-* manipulated,
-* adversarial,
-* hallucinated.
+The chain may continue indefinitely.
 
 However:
 
 ```text
-False Observation
+Additional Decomposition
 
-Still Implies
+Does Not Always
 
-Generator
+Increase Understanding
 ```
 
 ---
 
-## P12. Stable Structures Are Generative Constraints
+## P12. Explanation Stops When Additional Decomposition Produces Insufficient Gain
 
-Many apparently static structures are continuously generated through ongoing interactions.
-
-Examples:
-
-* bridge stability,
-* market equilibrium,
-* biological homeostasis,
-* software reliability.
+Explanatory stopping is pragmatic rather than absolute.
 
 Therefore:
 
 ```text
-Structure
+Explanation Stops
 
-May Be Viewed As
+When
 
-Persistent Generation
+Additional Generator Search
+
+Produces
+
+Insufficient Explanatory Benefit
 ```
-
-and
-
-```text
-Stability
-
-May Be Viewed As
-
-Continuous Regeneration
-```
-
----
-
-## P13. Robust Knowledge Concerns Generators
-
-Knowledge becomes more robust as it shifts from isolated observations toward stable generators.
-
-Therefore:
-
-```text
-Mechanism Knowledge
-
->
-
-Observation Knowledge
-```
-
-for explanation, prediction, intervention, and diagnosis.
 
 ---
 
 # Recursive Generative Principle
 
-Observations are frequently outputs of higher-order generators.
-
-Examples:
-
-```text
-Perception
-Generates
-Objects
-
-Language
-Generates
-Categories
-
-Culture
-Generates
-Meanings
-
-Science
-Generates
-Theories
-```
+Any observation may itself be analyzed as generator output.
 
 Therefore:
-
-```text
-Any Observation
-
-May Be Treated As
-
-Evidence Of
-
-Another Generator
-```
-
-The principle becomes recursively applicable:
 
 ```text
 What Generated This?
 ```
 
-including:
+applies to:
 
 * observations,
-* interpretations,
 * concepts,
-* models,
+* beliefs,
 * explanations,
 * institutions,
-* theories.
+* theories,
+* scientific models.
 
----
-
-# Observability Hierarchy
-
-One possible hierarchy is:
-
-```text
-Reality
-
-Generative Structures
-
-Observable Consequences
-
-Observation
-
-Generator Models
-
-Interpretation
-
-Meaning
-```
-
-Alternative hierarchies may be useful in particular domains.
-
-The principle does not require a unique hierarchy.
-
-It requires recognition that observations arise through generative structure.
+The principle recursively applies at every level.
 
 ---
 
 # Derived Interpretations
-
-Many activities may be viewed through generative structure.
-
-Examples:
 
 ```text
 Science
@@ -834,10 +769,10 @@ Control
 ≈ Generator Influence
 
 Research
-≈ Generator Discovery
+≈ Constraint Discovery
 
 Explanation
-≈ Generator Compression
+≈ Inverse Generation
 
 Perception
 ≈ Generator Inference
@@ -845,52 +780,9 @@ Perception
 
 ---
 
-# Relationship To Luck
-
-An isolated success may occur accidentally.
-
-Examples:
-
-* lucky prediction,
-* accidental discovery,
-* one-time insight,
-* random success.
-
-By contrast:
-
-```text
-Stable Generator
-
-→ Repeated Success
-
-Stable Generator
-
-→ Repeated Prediction
-
-Stable Generator
-
-→ Repeated Insight
-```
-
-Therefore:
-
-```text
-Reliability
-
-Derives From
-
-Generators
-
-Not
-
-Individual Outcomes
-```
-
----
-
 # General Principle
 
-When confronted with an observation, the primary question is not:
+When confronted with an observation, the central question is not:
 
 ```text
 What Happened?
@@ -899,85 +791,26 @@ What Happened?
 but:
 
 ```text
-What Generated This?
-```
-
-Likewise:
-
-```text
-Why Does This Exist?
+What Could Have Generated This?
 ```
 
 and:
 
 ```text
-What Structure
+What Constraints
 
 Must Exist
 
 For This To Be Possible?
 ```
 
-The observation may be:
+Observations reveal existence.
 
-* true,
-* false,
-* important,
-* trivial,
-* useful,
-* misleading.
+Generators reveal mechanisms.
 
-In every case:
+Constraints reveal explanatory structure.
 
-```text
-Its Existence
-
-Requires
-
-Generation
-```
-
----
-
-# Scope
-
-The Generative Primacy Principle is a structural theory.
-
-It does not specify:
-
-* what is valuable,
-* what is desirable,
-* what is ethical,
-* what is useful.
-
-It specifies:
-
-```text
-Where Explanation
-Resides
-```
-
-Observations provide evidence.
-
-Generators provide explanation.
-
-The principle concerns:
-
-```text
-Generation
-
-Not Observation
-```
-
-and
-
-```text
-Mechanism
-
-Not Instance
-```
-
-while recognizing that observations themselves are often generated instances within larger generative hierarchies.
+The deepest understanding arises not from cataloging observations, but from identifying the constrained generators capable of producing them.
 
 ---
 
@@ -985,40 +818,36 @@ while recognizing that observations themselves are often generated instances wit
 
 Observations are generated.
 
-Observation existence implies generator existence.
+Generators define possibility spaces.
+
+Constraints restrict those spaces.
+
+Observation existence implies generation.
 
 Observations provide evidence.
 
 Generators provide explanation.
 
-Epistemic significance differs from explanatory significance.
+Constraints provide explanatory power.
 
-Generators often persist across many observations.
+Observations rarely identify generators uniquely.
+
+Observations frequently eliminate generators.
+
+Explanation is an inverse problem.
 
 Prediction requires generator models.
 
-Observability enables generator discovery.
+Generator discovery is constraint discovery.
 
-Observations do not uniquely identify generators.
-
-System boundaries are scale-relative.
-
-Structures may be understood as persistent generative constraints.
-
-Many observations are themselves generated observations.
-
-Any observation may be recursively analyzed through:
-
-```text
-What Generated This?
-```
-
-Robust understanding derives from identifying stable generative structures rather than focusing on isolated observations.
+Explanatory depth arises from identifying stable generators rather than isolated outputs.
 
 The central question becomes:
 
 ```text
-What Generated This?
-```
+What Could Have Generated This?
 
-Explanatory significance resides primarily in the generators capable of producing observations, while observations serve as evidence through which those generators may be discovered.
+And
+
+What Constraints Made It Possible?
+```
