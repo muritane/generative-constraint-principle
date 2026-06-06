@@ -1,6 +1,6 @@
 # The Generative Constraint Principle
 
-## A Structural Theory of Observations, Generators, Constraints, Capability, and Explanation
+## A Structural Theory of Observations, Generator Hierarchies, Constraint Architectures, Capability, and Explanation
 
 ---
 
@@ -11,15 +11,15 @@ Systems continuously produce observations.
 Examples include:
 
 * sensory experiences,
-* scientific measurements,
-* software logs,
+* measurements,
+* log entries,
 * market prices,
 * statements,
 * behaviors,
 * institutions,
 * theories.
 
-The traditional question is:
+Traditional explanation asks:
 
 **What Happened?**
 
@@ -27,27 +27,43 @@ A deeper question is:
 
 **What Could Have Generated This?**
 
-Every observation possesses a more primitive property than truth, usefulness, meaning, or interpretation:
+A deeper question still is:
+
+**What Constraint Architecture Made Such Generation Possible?**
+
+Every observation possesses a primitive property prior to truth, meaning, usefulness, or interpretation:
 
 **It Exists**
 
 Its existence implies that some process was capable of producing it.
 
-However generation is never arbitrary.
+However observations do not emerge from arbitrary processes.
 
-Every generator is constrained.
+Generators operate within constraints.
 
-Understanding therefore requires identifying not only observations but also the constraints that make those observations possible.
+Constraints organize possibility.
+
+Capability emerges from the organization of constraints.
+
+Therefore understanding progresses through identifying:
+
+* observations,
+* generators,
+* constraint architectures,
+* capabilities,
+* layers of organization.
 
 The central claim of this principle is:
 
 Observations provide evidence.
 
-Generators provide explanation.
+Generators provide immediate explanation.
 
-Constraints provide structure.
+Constraint architectures provide deep explanation.
 
 Capability emerges from constraint organization.
+
+Knowledge grows through discovering constraint structures that make observations possible.
 
 ---
 
@@ -64,15 +80,19 @@ Every observation results from some process, interaction, mechanism, structure, 
 Examples:
 
 Measurement
+
 ← Physical Interaction
 
 Log Entry
+
 ← Program Execution
 
 Statement
+
 ← Cognitive Process
 
 Price
+
 ← Market Dynamics
 
 Therefore:
@@ -85,17 +105,83 @@ Generator
 
 ---
 
-## F2. Every Generator Has Constraints
+## F2. Generators Exist Within Hierarchies
+
+A generator is itself an observation relative to a deeper layer.
+
+Examples:
+
+ASCII Character
+
+← Encoder
+
+Encoder
+
+← Program
+
+Program
+
+← Processor
+
+Processor
+
+← Logic Circuits
+
+Logic Circuits
+
+← Transistors
+
+Transistors
+
+← Physical Interactions
+
+Therefore:
+
+Generators Form
+
+Hierarchies
+
+Rather Than
+
+Isolated Causes
+
+---
+
+## F3. Observations Are Layer Dependent
+
+An observation exists relative to a particular organizational layer.
+
+Examples:
+
+An ASCII character does not exist at the electron layer.
+
+A legal contract does not exist at the molecular layer.
+
+A market price does not exist at the atomic layer.
+
+A theorem does not exist at the pixel layer.
+
+Therefore:
+
+Observations
+
+Depend Upon
+
+Constraint-Supported Layers
+
+---
+
+## F4. Every Generator Has Constraints
 
 No generator can produce arbitrary outputs.
 
 Examples:
 
-ASCII Generator
+ASCII Encoder
 
 Cannot Produce
 
-Unicode Characters
+Arbitrary Unicode States
 
 Refrigerator
 
@@ -107,41 +193,61 @@ Helium Atom
 
 Cannot Produce
 
-Arbitrary Chemical Bonds
+Arbitrary Chemical Structures
 
 Therefore:
 
-Generator
+Generators
 
-Defines
+Define
 
-A Possibility Space
-
-and
-
-Generator
-
-Excludes
-
-Many Outputs
+Possibility Spaces
 
 ---
 
-## F3. Constraints Define Possibility Spaces
+## F5. Constraints Define Possibility Spaces
 
-A constraint is any condition that removes possible states, transitions, observations, or behaviors.
+A constraint removes possible states, transitions, observations, or behaviors.
 
-Mathematically:
+Constraints define:
+
+What may occur.
+
+What cannot occur.
+
+Therefore:
 
 Constraint
 
-Defines
-
-Allowed Region
-
-Within
+Shapes
 
 Possibility Space
+
+---
+
+## F6. Constraint Architectures Create Observable Structures
+
+Constraints do not merely eliminate possibilities.
+
+They organize possibilities into stable structures.
+
+Examples:
+
+Encoding Standards
+
+Create Characters
+
+Grammar
+
+Creates Language
+
+Programming Languages
+
+Create Software Structures
+
+Property Rights
+
+Create Markets
 
 Therefore:
 
@@ -149,17 +255,13 @@ Constraints
 
 Determine
 
-What Can Occur
-
-and
-
-What Cannot Occur
+What Can Exist As An Observation
 
 ---
 
-## F4. Information Is Possibility Elimination
+## F7. Information Is Possibility Elimination
 
-Information arises from reduction of uncertainty.
+Information emerges through reduction of alternatives.
 
 Learning that something cannot occur is often as informative as learning that something can occur.
 
@@ -173,7 +275,7 @@ Possibility Elimination
 
 ---
 
-## F5. Observation Existence Precedes Interpretation
+## F8. Observation Existence Precedes Interpretation
 
 Observations may be:
 
@@ -183,7 +285,7 @@ Observations may be:
 * manipulated,
 * misunderstood.
 
-Before interpretation:
+Prior to interpretation:
 
 The Observation Exists
 
@@ -195,13 +297,13 @@ Observation
 
 Implies
 
-Generator
+Generation
 
 Regardless Of Truth Status
 
 ---
 
-## F6. Explanation Is Generator Inference
+## F9. Explanation Is Generator Inference
 
 Generation proceeds naturally:
 
@@ -209,15 +311,15 @@ Generator
 
 → Observation
 
-Explanation proceeds in reverse:
+Explanation proceeds inversely:
 
 Observation
 
 → Generator
 
-The reverse direction is generally underdetermined.
+This reverse mapping is generally underdetermined.
 
-Multiple generators may explain the same observation.
+Multiple generators may remain compatible.
 
 Therefore:
 
@@ -229,11 +331,11 @@ Generator Inference
 
 ---
 
-## F7. Observations Primarily Eliminate Generators
+## F10. Observations Primarily Eliminate Generators
 
 Observations rarely identify generators uniquely.
 
-However they frequently eliminate candidate generators.
+However observations frequently eliminate incompatible generators.
 
 Therefore:
 
@@ -249,9 +351,11 @@ Generator Identification
 
 ---
 
-## F8. Generator Discovery Is Constraint Discovery
+## F11. Generator Discovery Is Constraint Discovery
 
 Understanding improves when fewer generators remain compatible with observations.
+
+Generator reduction occurs through discovering constraints.
 
 Therefore:
 
@@ -263,92 +367,140 @@ Constraint Discovery
 
 ---
 
-## F9. Constraint Sufficiency
-
-Not all constraints are equally useful.
-
-A useful constraint system removes unnecessary possibilities while preserving necessary capability.
-
-Examples:
-
-* quaternion representations,
-* conservation laws,
-* programming language syntax,
-* communication protocols.
-
-Therefore:
-
-Useful Constraints
-
-Reduce Complexity
-
-Without Eliminating Essential Capability
-
----
-
-## F10. Capability Emerges From Constraint Structure
+## F12. Capability Emerges From Constraint Architecture
 
 Constraints do not merely remove possibilities.
 
-They may create higher-order possibilities.
+They organize transitions.
+
+Organized transitions create reliable behavior.
+
+Reliable behavior creates capability.
 
 Examples:
 
-Traffic Rules
-
-Enable
-
-Reliable Transportation
-
 Grammar
 
-Enables
+Enables Communication
 
-Communication
+Traffic Rules
 
-Property Rights
-
-Enable
-
-Markets
+Enable Transportation
 
 Programming Languages
 
-Enable
+Enable Software Construction
 
-Software Construction
+Scientific Method
+
+Enables Science
 
 Therefore:
 
-Constraint Organization
+Capability
 
-Creates Capability
+Emerges From
+
+Constraint Architecture
 
 ---
 
-## F11. Freedom Is Reachable Possibility
+## F13. Capability Reveals Constraint Architecture
+
+Capabilities provide evidence about underlying constraints.
+
+Examples:
+
+A compiler implies syntax rules.
+
+A market implies institutional rules.
+
+A language implies grammatical structure.
+
+A computing device implies execution architecture.
+
+Therefore:
+
+Capability
+
+Constrains
+
+Compatible Constraint Structures
+
+---
+
+## F14. Constraints Shape Possibility Topology
+
+Constraints are not merely subtractive.
+
+They organize relationships between possibilities.
+
+Two systems may contain similar numbers of constraints while possessing radically different capabilities.
+
+Capability depends upon:
+
+* arrangement,
+* composition,
+* interaction,
+
+of constraints.
+
+Therefore:
+
+Constraint Architecture
+
+Matters More Than
+
+Constraint Quantity
+
+---
+
+## F15. Freedom Is Reachable Possibility
 
 Freedom is not the number of imaginable states.
 
-Freedom is the number of reachable and controllable states.
+Freedom is access to reachable states.
 
-Logical possibility is not equivalent to practical possibility.
+Practical freedom depends upon available paths through a constraint structure.
 
 Therefore:
 
 Freedom
 
-Depends On
+Depends Upon
 
-Reachable Possibility Space
+Reachability
+
+Not Mere Possibility
 
 ---
 
-## F12. Resources Modify Constraints
+## F16. Capability Requires Constraints
+
+A completely unconstrained system lacks stable transitions.
+
+Without stable transitions:
+
+* prediction fails,
+* control fails,
+* coordination fails,
+* capability fails.
+
+Therefore:
+
+Capability
+
+Requires
+
+Constraint
+
+---
+
+## F17. Resources Modify Constraint Structures
 
 Resources do not directly create possibilities.
 
-Resources relax, shift, or replace constraints.
+Resources relax, shift, replace, or bypass constraints.
 
 Examples:
 
@@ -364,31 +516,37 @@ Capital
 
 Expands Reachable Actions
 
+Computation
+
+Expands Reachable Transformations
+
 Therefore:
 
 Resources
 
 Modify
 
-Constraint Structure
+Constraint Structures
 
 ---
 
-## F13. Coordination Trades Local Freedom For Global Capability
+## F18. Coordination Trades Local Freedom For Global Capability
 
 Coordination introduces constraints.
 
-However coordination often expands collective capability.
+Yet coordinated systems frequently gain capability.
 
 Examples:
 
 Language
 
-Traffic Systems
-
 Engineering Standards
 
-Scientific Methods
+Scientific Method
+
+Legal Systems
+
+Traffic Networks
 
 Therefore:
 
@@ -398,15 +556,19 @@ May Shrink
 
 While
 
-Collective Possibility Space
+Collective Capability
 
 Expands
 
 ---
 
-## F14. Bounded Systems Require Compression
+## F19. Bounded Systems Require Compression
 
-A bounded system cannot represent all distinctions present in reality.
+No bounded system can represent every distinction.
+
+Representation requires selecting distinctions.
+
+Selection removes information.
 
 Therefore:
 
@@ -420,27 +582,25 @@ Compression
 
 Requires
 
-Information Loss
-
-All models are lossy relative to some larger possibility space.
+Loss
 
 ---
 
-## F15. Models Become Stable Through Constraint Sufficiency
+## F20. Models Become Stable Through Constraint Sufficiency
 
-Not all models require continual revision.
+Models improve through constraint discovery.
 
-Some models become effectively complete within a specified domain.
+Eventually additional discoveries produce negligible gains.
 
 Examples:
 
 Arithmetic
 
-Quaternion Rotations
-
-Conservation Laws
+Boolean Logic
 
 Classical Circuit Theory
+
+Conservation Laws
 
 Therefore:
 
@@ -450,31 +610,38 @@ Occurs When
 
 Additional Constraint Discovery
 
-Produces Negligible Practical Gain
+Produces Little Utility
 
 ---
 
-## F16. Layered Systems Are Constraint Hierarchies
+## F21. Layered Systems Are Constraint Hierarchies
 
-Complex systems are composed of layers.
+Complex systems emerge through layers.
 
 Each layer:
 
-* inherits constraints from below,
-* introduces new constraints,
-* exposes new capabilities above.
+* inherits constraints,
+* introduces constraints,
+* creates capabilities.
 
 Examples:
 
 Physics
+
 → Transistors
+
 → Logic Gates
+
 → Programs
+
 → Institutions
 
 Pixels
+
 → Features
+
 → Objects
+
 → Concepts
 
 Therefore:
@@ -499,69 +666,67 @@ Any realized output available to a system.
 
 ## D2. Generator
 
-A process, mechanism, structure, interaction, or system capable of producing observations.
+A process, mechanism, interaction, or structure capable of producing observations.
 
 ---
 
-## D3. Possibility Space
+## D3. Generator Hierarchy
+
+A layered chain of generators in which each generator is itself generated by deeper structures.
+
+---
+
+## D4. Possibility Space
 
 The set of realizable states, observations, behaviors, or outputs.
 
 ---
 
-## D4. Constraint
+## D5. Constraint
 
-Any condition that removes possible states, transitions, observations, or behaviors.
-
----
-
-## D5. Constraint Class
-
-The set of generators compatible with a particular collection of constraints.
+Any condition that removes or organizes possible states, transitions, observations, or behaviors.
 
 ---
 
-## D6. Capability
+## D6. Constraint Architecture
 
-The set of achievable outcomes available under a particular constraint structure.
-
----
-
-## D7. Freedom
-
-The set of reachable and controllable outcomes available to an agent.
+The arrangement and interaction of constraints that determines system behavior.
 
 ---
 
-## D8. Resource
+## D7. Capability
 
-Anything capable of relaxing, shifting, or replacing constraints.
+The set of achievable outcomes enabled by a constraint architecture.
 
 ---
 
-## D9. Representation
+## D8. Freedom
+
+The set of reachable and controllable outcomes available through existing paths.
+
+---
+
+## D9. Resource
+
+Anything capable of modifying constraint structures.
+
+---
+
+## D10. Representation
 
 A compressed state preserving distinctions relevant to a task.
 
 ---
 
-## D10. Constraint Sufficiency
+## D11. Constraint Sufficiency
 
-A constraint system that removes unnecessary distinctions while preserving required capability.
+A constraint architecture that removes unnecessary distinctions while preserving required capability.
 
 ---
 
-## D11. Functional Completeness
+## D12. Layer
 
-A minimal primitive system capable of generating all required behaviors within a domain.
-
-Example:
-
-NAND
-
-Generates
-
-All Boolean Computation
+A level of organization at which particular observations become meaningful entities.
 
 ---
 
@@ -581,31 +746,57 @@ Produced It
 
 ---
 
-## P2. Generators Define Possibility Spaces
+## P2. Generators Form Hierarchies
 
-Generator
+Every Generator
 
-Determines
+Can Be Explained
+
+By Deeper Generators
+
+---
+
+## P3. Observations Depend On Layers
+
+Observations
+
+Exist Relative To
+
+Constraint-Supported Organizational Levels
+
+---
+
+## P4. Generators Define Possibility Spaces
+
+Generators
+
+Determine
 
 What Can Occur
 
-and
+And
 
 What Cannot Occur
 
 ---
 
-## P3. Constraints Shape Possibility Spaces
+## P5. Constraints Shape Possibility Spaces
 
-Constraint
+Constraints
 
-Removes
+Remove
+
+Organize
+
+And
+
+Relate
 
 Possible States
 
 ---
 
-## P4. Information Is Possibility Elimination
+## P6. Information Is Possibility Elimination
 
 Learning
 
@@ -615,7 +806,7 @@ Compatible Alternatives
 
 ---
 
-## P5. Explanation Is Generator Inference
+## P7. Explanation Is Generator Inference
 
 Observation
 
@@ -625,37 +816,47 @@ Compatible Generators
 
 ---
 
-## P6. Understanding Progresses Through Generator Elimination
+## P8. Understanding Progresses Through Constraint Discovery
 
 Knowledge Growth
 
-Primarily Occurs Through
+Occurs Through
 
 Reduction Of Compatible Generators
 
 ---
 
-## P7. Capability Emerges From Structured Constraints
+## P9. Capability Emerges From Constraint Architecture
 
-Well-Chosen Constraints
+Well-Organized Constraints
 
-Increase
+Create
 
-Higher-Level Capability
-
----
-
-## P8. Freedom Depends On Reachable States
-
-Imagination
-
-Is Not
-
-Actionable Possibility
+Reliable Higher-Order Behavior
 
 ---
 
-## P9. Resources Transform Constraint Structures
+## P10. Capability Reveals Constraint Architecture
+
+Observed Capability
+
+Provides Evidence
+
+About Underlying Constraints
+
+---
+
+## P11. Freedom Depends Upon Reachable Paths
+
+Possibility
+
+Without Reachability
+
+Is Not Practical Freedom
+
+---
+
+## P12. Resources Transform Constraint Structures
 
 Resources
 
@@ -665,59 +866,61 @@ Reachable Possibility Space
 
 ---
 
-## P10. Coordination Expands Collective Capability
-
-Collective Capability
-
-Often Requires
+## P13. Coordination Expands Collective Capability
 
 Additional Constraints
 
----
+May Produce
 
-## P11. Models Compress Reality
-
-Every Bounded Model
-
-Represents
-
-Only A Subset Of Distinctions
+Greater Collective Capability
 
 ---
 
-## P12. Stable Knowledge Corresponds To Constraint-Sufficient Models
+## P14. Models Compress Reality
 
-Revision Becomes Rare
+Every Model
 
-When
+Preserves
 
-Constraint Discovery
-
-Produces Little Additional Utility
+Only Task-Relevant Distinctions
 
 ---
 
-## P13. Intelligence Constructs Constraint Hierarchies
+## P15. Stable Knowledge Corresponds To Constraint Sufficiency
+
+Model Revision
+
+Becomes Rare
+
+When Additional Constraints
+
+Provide Little Benefit
+
+---
+
+## P16. Intelligence Constructs Constraint Hierarchies
 
 Learning
 
-Engineering
-
 Science
+
+Engineering
 
 Evolution
 
 And Cognition
 
-All Create
+Construct
 
-Progressively More Useful Constraint Systems
+Progressively More Useful
+
+Constraint Architectures
 
 ---
 
 # Recursive Principle
 
-Every observation may itself be analyzed as generator output.
+Every observation may itself be analyzed as generated output.
 
 This includes:
 
@@ -727,17 +930,17 @@ This includes:
 * explanations,
 * institutions,
 * scientific theories,
-* generator models.
+* models,
+* generator hierarchies,
+* constraint architectures.
 
 Therefore:
 
 What Generated This?
 
-and
+What Constraint Architecture Made It Possible?
 
-What Constraints
-
-Made This Possible?
+What Layer Does It Exist Within?
 
 apply recursively at every level.
 
@@ -745,23 +948,29 @@ apply recursively at every level.
 
 # General Principle
 
-When confronted with an observation, the central questions are:
+When confronted with an observation, ask:
 
 What Could Have Generated This?
 
-What Constraints Made It Possible?
+What Layer Does This Observation Exist Within?
+
+What Constraint Architecture Made It Possible?
 
 What Possibilities Were Eliminated?
 
 What Capabilities Were Created?
 
-Understanding increases through discovering constraints that simultaneously:
+What Capabilities Reveal The Underlying Constraints?
+
+Understanding increases through discovering constraint architectures that simultaneously:
 
 * eliminate alternatives,
+* organize possibilities,
 * stabilize behavior,
 * preserve capability,
-* enable higher-order possibilities.
+* create higher-order possibilities,
+* support new layers of observation.
 
-The deepest explanations are not those that merely identify generators.
+The deepest explanations do not merely identify generators.
 
-The deepest explanations reveal the constraint structures that make generators, observations, capabilities, coordination, and knowledge possible.
+The deepest explanations reveal the hierarchical constraint architectures that make generators, observations, capabilities, intelligence, coordination, and knowledge possible.
